@@ -10,5 +10,6 @@ final mockHeroes = <Hero>[
   Hero(17, 'Dynama'),
   Hero(18, 'Dr IQ'),
   Hero(19, 'Magma'),
-  Hero(20, 'Tornado')
+  Hero(20, 'Tornado'),
+  Hero(21, 'Stian'),
 ];

@@ -2,6 +2,9 @@
 	<h1>{{title}}</h1>
 	<h2>Heroes</h2>
 	<ul class="heroes">
+		<p *ngIf="heroes === null">
+			<material-spinner></material-spinner>
+		</p>
 		<li *ngFor="let hero of heroes" [class.selected]="hero === selected" (click)="onSelect(hero)">
 			<span class="badge">{{hero.id}}</span> {{hero.name}}
 		</li>
